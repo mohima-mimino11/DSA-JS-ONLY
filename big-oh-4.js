@@ -8,7 +8,7 @@ function printAllPairs(n) {
 console.log(printAllPairs(8));
 
 function logAtLeast5(n) {
-    for (var i = 1; i <= Math.max(5, n); i++) {
+    for (var i = 1; i <= Math.max(5, n); i++) {  // this will run the loop n times leading the function to be O(n)
       console.log(i);
     }
 }
@@ -16,7 +16,7 @@ function logAtLeast5(n) {
 console.log(logAtLeast5(4));
 
 function logAtMost5(n) {
-  for (var i = 1; i <= Math.min(5, n); i++) {
+  for (var i = 1; i <= Math.min(5, n); i++) { // this will run the loop 5 times or less when n is less than 5 regardless of the 1000times bigger value of n leading the function to be O(1)
     console.log(i);
   }
 }
