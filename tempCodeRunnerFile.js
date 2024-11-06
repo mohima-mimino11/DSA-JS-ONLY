@@ -1,4 +1,7 @@
-var t1 = performance.now();
-addUpTo(1000000000);
-var t2 = performance.now();
-console.log(`Time elapsed: ${(t2-t1)/1000} seconds`);
+function logAtLeast5(n) {
+//     for (var i = 1; i <= Math.max(5, n); i++) {
+//       console.log(i);
+//     }
+// }
+
+// console.log(logAtLeast5(9));

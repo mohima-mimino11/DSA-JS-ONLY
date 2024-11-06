@@ -13,4 +13,12 @@ function logAtLeast5(n) {
     }
 }
 
-console.log(logAtLeast5(9));
+console.log(logAtLeast5(4));
+
+function logAtMost5(n) {
+  for (var i = 1; i <= Math.min(5, n); i++) {
+    console.log(i);
+  }
+}
+
+console.log(logAtMost5(3));
