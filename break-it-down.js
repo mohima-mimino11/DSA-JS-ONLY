@@ -53,13 +53,17 @@ function charCount(str){
         else{
             result[char] = 1
         }
+        // if the character is something else (space, period,etc.....) don't do anything
+        // else{
+        //     result[char] = 0;
+        // }
     }
        
        
         // if the character is something else (space, period,etc.....) don't do anything
 
     // return object at end
-    return result
+    return result;
     
 }
 

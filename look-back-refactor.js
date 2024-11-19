@@ -1,9 +1,9 @@
-function charCount(str){
+ function charCount(str){
     // make object to return at the end
     var result = {};
     // loop over string, for each character....
     for(var char of str){
-        var char = char.toLowerCase();
+        char = char.toLowerCase();
         // using regexp
         // if the character is something else (space, period,etc.....) don't do anything
         if(/[a-z0-9]/.test(char)){
@@ -29,4 +29,4 @@ function charCount(str){
 
 console.log(charCount("Your PIN number is 1234"));
 console.log(charCount("oh Hi!"));
-console.log(charCount("And I hope I never lose you, hope it never ends!!! I would never walk Cornelia Street again!"));
+// console.log(charCount("And I hope I never lose you, hope it never ends!!! I would never walk Cornelia Street again!"));
