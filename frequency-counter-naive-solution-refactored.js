@@ -25,3 +25,11 @@ function same(arr1, arr2){
 console.log(same([1,2,3,2], [9,1,4,4]));
 console.log(same([1,2,3,2,5], [9,1,4,4,11]));
 // time complexity - O(n)
+/**
+ * Time Complexity:
+Creating Frequency Counters: O(n) for arr1 and  O(n) for arr2.
+Validating Relationship:  O(n).
+Total:  O(n).
+Space Complexity:
+O(n) for the frequency counters
+ */
