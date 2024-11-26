@@ -18,7 +18,7 @@ function validAnagram(s,t){
 
    }
   //  console.log(lookUp);
-   for(let i; i < t.length; i++){
+   for(let i= 0; i < t.length; i++){
     let letter = t[i];
     // can't find letter or letter is zero then it's not an anagram
     if(!lookUp[letter]){
